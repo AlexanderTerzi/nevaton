@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Nevaton - тонировка</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="#">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+ 	<meta property="og:title" content="">
+ 	<meta property="og:description" content="">
+ 	<meta property="og:type" content="article">
+ 	<meta property="og:image" content="#">
+ 	<meta property="og:site_name" content="">
+ 	<!-- Google fonts -->
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome Pro -->
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- Slick slider CSS and theme -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Arctic Modal -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Lightbox CSS -->
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<!-- TwentyTwenty CSS -->
+	<link rel="stylesheet" href="css/twentytwenty.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- Preloader -->
+	<div id="page-preloader">
+		<span class="spinner">
+			<div id="preloader">
+  				<div class="banter-loader">
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				  <div class="banter-loader__box"></div>
+				</div>
+			</div>
+		</span>
+	</div>
+	<div class="header-fixed" id="header-fixed">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 col-lg-2 col-xl-3">
+						<a href="#" class="header__logo header__logo_big">
+							<img src="img/logo-header.png" alt="Логотип Nevaton" class="header__logo_img">
+						</a>
+						<a href="#" class="header__logo header__logo_small">
+							<img src="img/logo-header-small.png" alt="Логотип Nevaton" class="header__logo_img">
+						</a>
+					</div>
+					<div class="d-none d-lg-block col-lg-7 col-xl-7">
+						<nav class="main-menu">
+							<ul class="main-menu__list">
+								<li class="main-menu__item">
+									<a href="#header" class="main-menu__link go_to">
+										Главная
+									</a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#why" class="main-menu__link go_to">
+										Proфессия
+									</a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#products" class="main-menu__link go_to">
+										Pro - предложения
+									</a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#works" class="main-menu__link go_to">
+										Портфолио
+									</a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#map" class="main-menu__link go_to">
+										Карта
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-7 col-lg-3 col-xl-2">
+						<div class="header-contacts">
+							<a href="tel:+79216554653" class="header-contacts__tel">
+								+7 (921) 655-46-53
+							</a>
+							<button class="btn header-contacts__btn popup__form">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+					<div class="col-2 col-sm-1 d-lg-none ml-auto">
+						<div class="menu-content">
+							<a href="#" class="menu-btn menu-open">
+      							<span></span>
+    						</a>
+    						<nav class="menu-mobile">
+								<ul class="menu-mobile__list">
+									<li class="menu-mobile__item">
+										<a href="#header" class="menu-mobile__link go_to">
+											Главная
+										</a>
+									</li>
+									<li class="menu-mobile__item">
+										<a href="#why" class="menu-mobile__link go_to">
+											Proфессия
+										</a>
+									</li>
+									<li class="menu-mobile__item">
+										<a href="#products" class="menu-mobile__link go_to">
+											Pro - предложения
+										</a>
+									</li>
+									<li class="menu-mobile__item">
+										<a href="#works" class="menu-mobile__link go_to">
+											Портфолио
+										</a>
+									</li>
+									<li class="menu-mobile__item">
+										<a href="#map" class="menu-mobile__link go_to">
+											Карта
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="header" id="header">
+		<div class="header__slider">
+			<div class="header-main header-main_one">
+			<div class="header-overlay header-overlay_one"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header__offer wow  fadeIn slow animated">
+								<div class="header__subtitle">
+									Выезд в день заказа!
+								</div>
+								<h1 class="header__title h1">
+									Профессиональный монтаж<br>пленки - 400 ₽/м2
+								</h1>
+								<button class="btn header__btn popup__form">
+									Узнать подробности
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-main header-main_two">
+			<div class="header-overlay header-overlay_two"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header__offer wow fadeIn slow animated">
+								<div class="header__subtitle">
+									Акция!
+								</div>
+								<div class="header__title h1">
+									Профессиональное тонирование<br>одного окна - 2900 ₽
+								</div>
+								<button class="btn header__btn popup__form">
+									Узнать подробности
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-main header-main_three">
+			<div class="header-overlay header-overlay_three"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header__offer wow fadeIn slow animated">
+								<div class="header__subtitle">
+									Безопасность стеклянных поверхностей!
+								</div>
+								<div class="header__title h1">
+									Бронирование и противопожарное<br>укрепление стекла- от 900 ₽
+								</div>
+								<button class="btn header__btn popup__form">
+									Узнать подробности
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-main header-main_four">
+			<div class="header-overlay header-overlay_four"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header__offer wow fadeIn slow animated">
+								<div class="header__subtitle">
+									Лучшая защита от солнца!
+								</div>
+								<div class="header__title h1">
+									Тонирование атермальной пленкой<br>производства США - 2500₽/метр.
+								</div>
+								<button class="btn header__btn popup__athermal">
+									Узнать подробности
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="advantages">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3">
+					<div class="advantages__item wow fadeIn slow animated">
+						<img src="img/advantages-1.png" alt="Бесплатный замер" class="advantages__img">
+						<span class="advantages__subtitle">
+							19 лет на рынке
+						</span>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="advantages__item wow fadeIn slow animated">
+						<img src="img/advantages-2.png" alt="Собственное производство" class="advantages__img">
+						<span class="advantages__subtitle">
+							Сертифицированные материалы
+						</span>						
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="advantages__item wow fadeIn slow animated">
+						<img src="img/advantages-3.png" alt="Сопровождаем заказ с любовью" class="advantages__img">
+						<span class="advantages__subtitle">
+							Дорожим своей репутацией
+						</span>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="advantages__item wow fadeIn slow animated">
+						<img src="img/advantages-4.png" alt="Бесплатный дизайн" class="advantages__img">
+						<span class="advantages__subtitle">
+							Конфиденциальность и защита
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="why" id="why">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="why__content wow fadeIn animated">
+						<h2 class="why__title">
+							Наша <span class="color-orange">Pro</span>фессия
+						</h2>
+						<p class="why__text">
+							Nevaton - <span class="color-orange">pro</span>фессиональное нанесение всех типов пленок на стекло. Работаем с 2000 года. 
+						</p>
+						<p class="why__text">
+							Используем материалы только проверенных производителей.
+						</p>
+						<p class="why__text">
+							Тонирование окон любых зданий и помещений, противопожарная и бронирующая защита стекла пленкой производства США, Индии, Кореи.
+						</p>
+						<button class="btn why__btn popup__form">
+							Оставить заявку
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="why__compare">
+						С тонировкой <i class="fal fa-arrows-h"></i> Без тонировки
+					</div>
+					<div class="why__img wow fadeIn slow animated" id="compare">
+						<img src="img/why-img-1.jpg" alt="Изображение">
+						<img src="img/why-img-2.jpg" alt="Изображение">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="products" id="products">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="products__title wow fadeIn animated">
+						Pro - предложения
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="product__card wow fadeIn animated">
+						<div class="product__img product__img_one"></div>
+						<div class="product__content">
+							<h3  class="product__title">
+								Профессиональное<br>нанесение пленки.
+							</h3>
+							<p class="product__text">
+								Моментальный выезд специалистов с высокой квалификацией, в любую точку Санкт-Петербурга и области. Замер. Подбор. Гарантия.
+							</p>
+							<div class="product__price">
+								<span class="font-weight-bold">Стоимость:</span> 400 ₽/м2
+							</div>
+							<button class="btn product__btn popup__form">
+								Оставить заявку
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product__card wow fadeIn animated">
+						<div class="product__img product__img_two"></div>
+						<div class="product__content">
+							<h3  class="product__title">
+								Акция!<br>«<span class="color-orange">PRO</span>» окно.
+							</h3>
+							<p class="product__text">
+								Тонирование профессиональной пленкой - фильтр солнечной энергии и односторонняя видимость. Разные варианты оттенков и свойств материала.
+							</p>
+							<div class="product__price">
+								<span class="font-weight-bold">Стоимость:</span> 2900 ₽/окно
+							</div>
+							<button class="btn product__btn popup__form">
+								Оставить заявку
+							</button>
+						</div>
+						<button class="btn__example popup__example">
+							Пример окна
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product__card product__card_last wow fadeIn animated">
+						<div class="product__img product__img_three"></div>
+						<div class="product__content">
+							<h3  class="product__title">
+								Бронирование, противопожарное укрепление
+							</h3>
+							<p class="product__text">
+								Все классы защиты стекла. Сертифицированные материалы. Безопасность любых стеклянных конструкций по гост.
+							</p>
+							<div class="product__price">
+								<span class="font-weight-bold">Стоимость:</span> от 900 ₽/м2
+							</div>
+							<button class="btn product__btn popup__form">
+								Оставить заявку
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="works" id="works">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="works__title wow fadeIn animated">
+						Наши последние работы
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="gallery__wrap wow fadeIn animated">
+						<a href="img/works-1.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-1.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-2.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-2.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-3.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-3.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-4.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-4.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-5.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-5.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-6.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-6.jpg" alt="Потфолио">
+    					</a>
+					</div>
+					<div class="gallery__wrap_hide" style="display:none;">
+						<a href="img/works-7.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-7.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-8.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-8.jpg" alt="Потфолио">
+    					</a>
+    					<a href="img/works-9.jpg" data-lightbox="roadtrip" class="works__img">
+    						<img src="img/works-9.jpg" alt="Потфолио">
+    					</a>
+					</div>
+					<div class="gallery__btn wow fadeIn slow animated">
+						<button class="btn gallery__btn_more">
+							Посмотреть все
+						</button>
+						<button class="btn-two gallery__btn_request popup__form">
+							Оставить заявку
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="map" id="map">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="map__title wow fadeIn animated">
+						Наши контакты
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="map__wrap wow fadeIn animated">
+						<div class="map__img">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1d2cb2eab9b68755461ca222bbeac220baa9a43f78babaeba7ada9d25297a202&amp;width=100%25&amp;height=556&amp;lang=ru_RU&amp;scroll=true"></script>
+						</div>
+						<div class="map__card">
+							<div class="map__address map__item">
+								<span class="font-weight-bold">Адрес:</span> Санкт-Петербург, ул. Чугунная, дом 40 
+							</div>
+							<div class="map__hours map__item">
+								<span class="font-weight-bold">Время работы:</span> Пн-Пт 9:30-18:00
+							</div>
+							<div class="map__phone map__item">
+								<span class="font-weight-bold">Телефон: </span><a href="tel:+79216554653" class="map__link">+7 (921) 655-46-53</a>
+							</div>
+							<div class="map__email map__item">
+								<span class="font-weight-bold">E-mail: </span><a href="mailto:info@nevaton-fartuk.ru" class="map__link">info@nevaton-fartuk.ru</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-sm-3 col-md-4 col-lg-3">
+					<a href="index.html" class="footer__logo">
+						<img src="img/logo-footer.png" alt="Логотип Nevaton">
+					</a>
+				</div>
+				<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+					<div class="footer__hours">
+						<div class="footer__hours_top font-weight-bold footer_top">
+							Время работы:
+						</div>
+						<div class="footer__hours_bottom footer_bottom">
+							24/7
+						</div>
+					</div>
+				</div>
+				<div class="col col-sm-5 col-md-4 col-lg-3">
+					<div class="footer__rights">
+						<div class="footer__rights_top font-weight-bold footer_top">
+							&copy; Все права защищены 2019
+						</div>
+						<a href="mailto:info@nevaton-fartuk.ru" class="footer__rights_bottom footer__rights_mail footer_bottom">
+							info@nevaton-fartuk.ru
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-2">
+					<div class="footer__address">
+						<div class="footer_top">
+							Санкт-Петербург
+						</div>
+						<div class="footer_bottom">
+							Ул. Чугунная, д.40
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-2">
+					<div class="footer-contacts">
+						<a href="tel:+79216554653" class="footer-contacts__tel">
+							+7 (921) 655-46-53
+						</a>
+						<button class="btn footer-contacts__btn popup__form">
+							Заказать звонок
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Modal -->
+	<div style="display: none;">
+    	<div class="box-modal" id="form">
+       	 <div class="box-modal_close arcticmodal-close">X</div>
+       		 <div class="form">
+				<div class="form__title">
+					Заполните форму
+				</div>
+				<div class="form__subtitle">
+					И мы Вам сразу перезвоним!
+				</div>
+				<form action="">
+					<input type="text" name="name" placeholder="Имя" required>
+					<input type="tel" name="phone" placeholder="Телефон" required>
+					<div class="form__privacy">
+						Нажимая на кнопку "Отправить заявку", я даю согласие на обработку персональных данных в соответствии с <button class="privacy__btn popup__privacy">"Политикой конфиденциальности"</button>
+					</div>
+					<button class="btn form__btn">
+						Оставить заявку
+					</button>
+				</form>
+			</div>
+    	</div>
+	</div>
+	<div style="display: none;">
+    	<div class="box-modal" id="example">
+       	 <div class="box-modal_close arcticmodal-close">X</div>
+       		 <div class="example__content">
+				<img src="img/example.jpg" alt="Пример окна">
+			</div>
+    	</div>
+	</div>
+	<div style="display: none;">
+    	<div class="box-modal" id="athermal">
+       	 <div class="box-modal_close arcticmodal-close">X</div>
+       		 <div class="athermal__content">
+				<div class="athermal__title">
+					Тонирование АТЕРМАЛЬНОЙ пленкой производства США
+				</div>
+				<p class="athermal__text">
+					Атермальная тонировка - это процесс установки теплоотражающей пленки на стекла в любом помещении для защиты от солнца без существенного затемнения стекол. За счет многослойной нано-структуры и разделения солнечных лучей, атермальная пленка пропускает достаточное количество света, не затемняя помещение. При этом отражаются те вредные лучи ультрафиолета и инфракрасного излучения, которые нагревают атмосферу и отрицательно воздействуют на мебель и предметы интерьера. 
+				</p>
+				<div class="athermal__price">
+					<span class="font-weight-bold">Стоимость:</span> 2500 ₽/м2
+				</div>
+				<button class="btn athermal__btn popup__form">
+					Оставить заявку
+				</button>
+			</div>
+    	</div>
+	</div>
+	<div style="display: none;">
+    	<div class="box-modal" id="privacy">
+       	 <div class="box-modal_close arcticmodal-close">X</div>
+       		 <div class="privacy__content">
+       		 	<div class="privacy__title">
+       		 		Политика конфиденциальности
+       		 	</div>
+       		 	<p class="privacy__text">
+       		 		Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт НеваТон, (далее – Сайт) расположенный на доменном имени nevaton.ru (а также его субдоменах), может получить о Пользователе во время использования сайта nevaton.ru (а также его субдоменов), его программ и его продуктов.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		1. Определение терминов
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1 В настоящей Политике конфиденциальности используются следующие термины:
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.1. «Администрация сайта» (далее – Администрация) – уполномоченные сотрудники на управление Сайтом, действующие от имени ООО “НеваТон”, которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.2. «Персональные данные» – любая информация, относящаяся к прямо или косвенно определенному, или определяемому физическому лицу (субъекту персональных данных).
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.3. «Обработка персональных данных» – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.4. «Конфиденциальность персональных данных» – обязательное для соблюдения Оператором или иным получившим доступ к персональным данным лицом требование не допускать их распространения без согласия субъекта персональных данных или наличия иного законного основания.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.5. Сайт – это совокупность связанных между собой веб-страниц, размещенных в сети Интернет по уникальному адресу (URL): nevaton.ru, а также его субдоменах.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.6. «Субдомены» – это страницы или совокупность страниц, расположенные на доменах третьего уровня, принадлежащие сайту НеваТон, а также другие временные страницы, внизу который указана контактная информация Администрации
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.7. «Пользователь Сайта» (далее Пользователь) – лицо, имеющее доступ к Сайту, посредством сети Интернет и использующее информацию, материалы и продукты Сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.8. «Cookies» — небольшой фрагмент данных, отправленный веб-сервером и хранимый на компьютере пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в HTTP-запросе при попытке открыть страницу соответствующего сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.9. «IP-адрес» — уникальный сетевой адрес узла в компьютерной сети, через который Пользователь получает доступ на Сайт.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		1.1.10. «Товар» – продукт, который Пользователь заказывает на сайте и оплачивает через платёжные системы.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		2. Общие положения
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		2.1. Использование Сайта Пользователем означает согласие с настоящей Политикой конфиденциальности и условиями обработки персональных данных Пользователя.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		2.2. В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить использование Сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		2.3. Настоящая Политика конфиденциальности применяется к Сайту. Сайт не контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на Сайте.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		2.4. Администрация не проверяет достоверность персональных данных, предоставляемых Пользователем.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		3. Предмет политики конфиденциальности
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.1. Настоящая Политика конфиденциальности устанавливает обязательства Администрации по неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по запросу Администрации при регистрации на Сайте, при подписке на информационную e-mail рассылку или при оформлении заказа, либо заказа звонка от сотрудников компании-владельца Сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2. Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения форм на Сайте и могут включать в себя следующую информацию:
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2.1. фамилию, имя, отчество Пользователя;
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2.2. контактный телефон Пользователя;
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2.3. адрес электронной почты (e-mail)
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2.4. место жительство Пользователя (при необходимости)
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2.5. адрес доставки Товара (при необходимости)
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.2.6. фотографию (при необходимости).
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.3. Сайт защищает Данные, которые автоматически передаются при посещении страниц:<br>
+				– IP адрес;<br>
+				– информация из cookies;<br>
+				– информация о браузере<br>
+				– время доступа;<br>
+				– реферер (адрес предыдущей страницы).
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.3.2. Сайт осуществляет сбор статистики об IP-адресах своих посетителей. Данная информация используется с целью предотвращения, выявления и решения технических проблем.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		3.4. Любая иная персональная информация, неоговоренная выше (история посещения, используемые браузеры, операционные системы и т.д.) подлежит надежному хранению и нераспространению, за исключением случаев, предусмотренных в п.п. 5.2. и 5.3. настоящей Политики конфиденциальности.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		4. Цели сбора персональной информации пользователя
+       		 	</p>
+       		 	<p class="privacy__text">
+					4.1. Персональные данные Пользователя Администрация может использовать в целях:
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.1. Идентификации Пользователя, зарегистрированного на Сайте для его дальнейшей авторизации, оформления заказа и других действий.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.2. Предоставления Пользователю доступа к персонализированным данным Сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.3. Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования Сайта, оказания услуг и обработки запросов и заявок от Пользователя.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.5. Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.6. Создания учетной записи для использования частей Сайта, если Пользователь дал согласие на создание учетной записи. 4.1.7. Уведомления Пользователя по электронной почте.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.8. Предоставления Пользователю эффективной технической поддержки при возникновении проблем, связанных с использованием Сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.9. Предоставления Пользователю с его согласия специальных предложений, информации о ценах, новостной рассылки и иных сведений от имени Сайта.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		4.1.10. Осуществления рекламной деятельности с согласия Пользователя.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		5. Способы и сроки обработки персональной информации
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		5.1. Обработка персональных данных Пользователя осуществляется без ограничения срока, любым законным способом, в том числе в информационных системах персональных данных с использованием средств автоматизации или без использования таких средств.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		5.2. Пользователь соглашается с тем, что Администрация вправе передавать персональные данные третьим лицам, в частности, курьерским службам, организациями почтовой связи (в том числе электронной), операторам электросвязи, исключительно в целях выполнения заказа Пользователя, оформленного на Сайте, включая доставку Товара, документации или e-mail сообщений.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		5.3. Персональные данные Пользователя могут быть переданы уполномоченным органам государственной власти Российской Федерации только по основаниям и в порядке, установленным законодательством Российской Федерации.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		5.4. При утрате или разглашении персональных данных Администрация вправе не информировать Пользователя об утрате или разглашении персональных данных.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		5.5. Администрация принимает необходимые организационные и технические меры для защиты персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		5.6. Администрация совместно с Пользователем принимает все необходимые меры по предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		6. Права и обязанности сторон
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.1. Пользователь вправе:
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.1.1. Принимать свободное решение о предоставлении своих персональных данных, необходимых для использования Сайта, и давать согласие на их обработку.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.1.2. Обновить, дополнить предоставленную информацию о персональных данных в случае изменения данной информации.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.1.3. Пользователь имеет право на получение у Администрации информации, касающейся обработки его персональных данных, если такое право не ограничено в соответствии с федеральными законами. Пользователь вправе требовать от Администрации уточнения его персональных данных, их блокирования или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными, незаконно полученными или не являются необходимыми для заявленной цели обработки, а также принимать предусмотренные законом меры по защите своих прав.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.2. Администрация обязана:
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.2.1. Использовать полученную информацию исключительно для целей, указанных в п. 4 настоящей Политики конфиденциальности.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.2.2. Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного письменного разрешения Пользователя, а также не осуществлять продажу, обмен, опубликование, либо разглашение иными возможными способами переданных персональных данных Пользователя, за исключением п.п. 5.2 и 5.3. настоящей Политики Конфиденциальности.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.2.3. Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя согласно порядку, обычно используемого для защиты такого рода информации в существующем деловом обороте.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		6.2.4. Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю, с момента обращения или запроса Пользователя, или его законного представителя либо уполномоченного органа по защите прав субъектов персональных данных на период проверки, в случае выявления недостоверных персональных данных или неправомерных действий.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		7. Ответственность сторон
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.1. Администрация, не исполнившая свои обязательства, несёт ответственность за убытки, понесённые Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Российской Федерации, за исключением случаев, предусмотренных п.п. 5.2., 5.3. и 7.2. настоящей Политики Конфиденциальности.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.2. В случае утраты или разглашения Конфиденциальной информации Администрация не несёт ответственность, если данная конфиденциальная информация:
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.2.1. Стала публичным достоянием до её утраты или разглашения.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.2.2. Была получена от третьей стороны до момента её получения Администрацией.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.2.3. Была разглашена с согласия Пользователя.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.3. Пользователь несёт полную ответственность за соблюдение требований законодательства РФ, в том числе законов о рекламе, о защите авторских и смежных прав, об охране товарных знаков и знаков обслуживания, но не ограничиваясь перечисленным, включая полную ответственность за содержание и форму материалов.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.4. Пользователь признает, что ответственность за любую информацию (в том числе, но не ограничиваясь: файлы с данными, тексты и т. д.), к которой он может иметь доступ как к части Сайта, несет лицо, предоставившее такую информацию.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.5. Пользователь соглашается, что информация, предоставленная ему как часть Сайта, может являться объектом интеллектуальной собственности, права на который защищены и принадлежат другим Пользователям, партнерам или рекламодателям, которые размещают такую информацию на Сайте. Пользователь не вправе вносить изменения, передавать в аренду, передавать на условиях займа, продавать, распространять или создавать производные работы на основе такого Содержания (полностью или в части), за исключением случаев, когда такие действия были письменно прямо разрешены собственниками такого Содержания в соответствии с условиями отдельного соглашения.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.6. В отношение текстовых материалов (статей, публикаций, находящихся в свободном публичном доступе на Сайте) допускается их распространение при условии, что будет дана ссылка на Сайт.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.7. Администрация не несет ответственности перед Пользователем за любой убыток или ущерб, понесенный Пользователем в результате удаления, сбоя или невозможности сохранения какого-либо Содержания и иных коммуникационных данных, содержащихся на Сайте или передаваемых через него.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.8. Администрация не несет ответственности за любые прямые или косвенные убытки, произошедшие из-за: использования либо невозможности использования сайта, либо отдельных сервисов; несанкционированного доступа к коммуникациям Пользователя; заявления или поведение любого третьего лица на сайте.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		7.9. Администрация не несет ответственность за какую-либо информацию, размещенную пользователем на Сайте, включая, но не ограничиваясь: информацию, защищенную авторским правом, без прямого согласия владельца авторского права.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		8. Разрешение споров
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		8.1. До обращения в суд с иском по спорам, возникающим из отношений между Пользователем и Администрацией, обязательным является предъявление претензии (письменного предложения или предложения в электронном виде о добровольном урегулировании спора).
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		8.2. Получатель претензии в течение 30 календарных дней со дня получения претензии, письменно или в электронном виде уведомляет заявителя претензии о результатах рассмотрения претензии.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		8.3. При не достижении соглашения спор будет передан на рассмотрение Арбитражного суда.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		8.4. К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией применяется действующее законодательство Российской Федерации.
+       		 	</p>
+       		 	<p class="privacy__subtitle">
+       		 		9. Дополнительные условия
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		9.1. Администрация вправе вносить изменения в настоящую Политику конфиденциальности без согласия Пользователя.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		9.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на Сайте, если иное не предусмотрено новой редакцией Политики конфиденциальности.
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		9.3. Все предложения или вопросы касательно настоящей Политики конфиденциальности следует сообщать по адресу: olga@nevaton.ru
+       		 	</p>
+       		 	<p class="privacy__text">
+       		 		9.4. Действующая Политика конфиденциальности размещена на странице по адресу http://nevaton.ru/politics/
+       		 	</p>
+			</div>
+    	</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/jquery.event.move.js"></script>
+	<script src="js/jquery.twentytwenty.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
